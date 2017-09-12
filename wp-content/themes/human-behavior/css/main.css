@@ -1,0 +1,119 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# BASE STYLES
+# HEADER / NAV
+# FOOTER
+# SIDEBAR
+# FRONT-PAGE
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BASE STYLES
+--------------------------------------------------------------*/
+.columns,
+.column {
+    /* match left and right spacing of nav */
+    margin: 1rem;
+}
+
+section {
+        /* space above and below section */
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.is-size-1 {
+    font-size: 3rem !important;
+}
+
+.is-size-2 {
+    font-size: 2.5rem !important;
+}
+
+.is-size-3 {
+    font-size: 2rem !important;
+}
+
+.is-size-4 {
+    font-size: 1.5rem !important
+}
+
+.is-size-5 {
+    font-size: 1.25rem !important
+}
+
+.is-size-6 {
+    font-size: 1rem !important;
+}
+
+.is-size-7 {
+    font-size: 0.85rem !important;
+}
+
+/*--------------------------------------------------------------
+# HEADER / NAV
+--------------------------------------------------------------*/
+#hb-nav-logo,
+#hb-nav-menu {
+    color: #262626;
+    font-family: 'karla', sans-serif;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+}
+
+/* left and right spacing for nav */
+.level,
+.level-item {
+    margin: 1.5rem;
+}
+/*--------------------------------------------------------------
+# FOOTER 
+--------------------------------------------------------------*/
+#hb-footer-contact {
+    font-family: 'karla', sans-serif;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+}
+
+#hb-footer-contact #hb-ig-link {
+    color: #262626;
+}
+/*--------------------------------------------------------------
+# SIDEBAR 
+--------------------------------------------------------------*/
+#sidebar .widget_categories h2 {
+    display: none;
+}
+
+#sidebar ul {
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#sidebar li {
+    list-style-type: none;
+}
+
+#sidebar .widget_categories a {
+    color: #262626;
+}
+
+/*--------------------------------------------------------------
+# FRONT-PAGE
+--------------------------------------------------------------*/
+#hb-front-about {
+    font-family: 'cardo', serif;
+}
+
+#front-content {
+    min-height: 600px;
+}
+
+
+
+
+
+
+
